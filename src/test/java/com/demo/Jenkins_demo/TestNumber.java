@@ -5,10 +5,10 @@ import org.junit.Test;
 
 @SuppressWarnings("restriction")
 public class TestNumber {
-PrimeNumber pN;
+static PrimeNumber pN;
 
 	@BeforeClass
-	    public void setUp() {
+	    public static void setUp() {
 		    pN = new PrimeNumber();
 	    }
 	
