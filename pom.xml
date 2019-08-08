@@ -9,7 +9,15 @@
 
   <name>Jenkins_demo</name>
   <url>http://maven.apache.org</url>
-
+  
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/sanyogita/.m2/repository/</url>
+       </repository>
+   </distributionManagement>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
