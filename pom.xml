@@ -14,7 +14,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///usr/local/apache-tomcat9/webapps/</url>
+         <url>file:///home/sanyogita/.m2/repository</url>
        </repository>
    </distributionManagement>
   
